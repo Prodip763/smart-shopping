@@ -1,5 +1,5 @@
 import React from "react";
-import logo from '../../images/logo.webp';
+import logo from '../../images/favicon.ico';
 import './Header.css';
 
 const Header = () => {
