@@ -20,14 +20,11 @@ const Shoe = (props) => {
                 <p className="btn-text">Add to Cart</p>
                 <FontAwesomeIcon icon={faShoppingCart}></FontAwesomeIcon>    
             </button>
-            {/* <Cart 
-            carts={carts}
-            handleAddToCart={handleAddToCart}
-            onRemove={onRemove}
-            handleCartClearance={handleCartClearance}></Cart> */}
+           
         </div>
     );
 };
 
 
 export default Shoe;
+
