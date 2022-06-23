@@ -1,6 +1,6 @@
 # Smart-Shopping
 
-Live link: [Smart-Shopping](https://github.com/facebook/create-react-app).
+Live link: [Smart-Shopping](https://jocular-gelato-4e392e.netlify.app).
 
 ## Available Scripts
 
