@@ -22,3 +22,10 @@
 .header a:hover{
     color: rgb(58, 56, 56);
 }
+.shopping{
+    text-align: center;
+    align-items: center;
+}
+.shopping span{
+    color: rgb(199, 162, 116);
+}

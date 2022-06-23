@@ -1,6 +1,6 @@
-# Getting Started with Create React App
+# Smart-Shopping
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Live link: [Smart-Shopping](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
 

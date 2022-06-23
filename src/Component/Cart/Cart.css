@@ -2,7 +2,11 @@
     position: sticky;
     top: 0;
 }
-.cart-items img {
+.cart-btn{
+    background-color: yellowgreen;
+    border-radius: 5px;
+}
+/* .cart-items img {
     width: 30px;
     height: 30px;
     border-radius: 15px;
@@ -29,4 +33,4 @@
     background-color: rgb(219, 184, 132);
     border-radius: 3px;
     box-sizing: border-box;
-}
+} */

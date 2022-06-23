@@ -5,30 +5,26 @@ import Cart from "../Cart/Cart";
 import './Shop.css';
 
 const Shop = () => {
-    const [shoes, setShoes] = useState([]);
+    const [shoes, setShoe] = useState([]);
     const [cart, setCart] = useState([]);
     useEffect( () => {
         fetch('data.json')
         .then(res => res.json())
-        .then(data => setShoes(data))
+        .then(data => setShoe(data))
     },[])
 
-    const handleAddToCart = (shoe)=>{
-        // console.log(shoe);
+    const handleAddToCart = (name)=>{
+        
         if(cart.length >= 4)
         {
             alert('please select less than 5');
         }
         else{
-            setCart([...cart, shoe]);
+            setCart([...cart, name]);
         }
     }
 
-    // const onRemove = (id) => {
-    //     const remove = carts.filter((cart) =>cart.id !==id);
-    //     setCarts(remove);
-        
-    // }
+
     
     const handleCartRemove = () =>{
         setCart([]);
@@ -43,17 +39,14 @@ const Shop = () => {
                 {
                     shoes.map(shoe=> <Shoe 
                         key={shoe.id} shoe={shoe}
-                        handleAddToCart={handleAddToCart}
-                        
-                        // onRemove={onRemove}
-                        // handleCartClearance={handleCartClearance}
-                    ></Shoe>)
+                        handleAddToCart={handleAddToCart}                       
+                        ></Shoe>)
                 }
             </div>
             <div className="cart-container">
                 <Cart 
                 choseOne ={choseOne}
-                removeAll ={handleCartRemove}
+                removeItem ={handleCartRemove}
                 cart={cart}
                 ></Cart>
                 
