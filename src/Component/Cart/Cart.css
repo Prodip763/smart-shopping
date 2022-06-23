@@ -1,0 +1,32 @@
+.cart{
+    position: sticky;
+    top: 0;
+}
+.cart-items img {
+    width: 30px;
+    height: 30px;
+    border-radius: 15px;
+}
+.cart-items{
+    display: flex;
+    justify-content: center;
+    
+}
+.cart .name{
+    font-size: small;
+    font-family: 'Times New Roman', Times, serif;
+    padding-left: 5px;
+    text-align: center;
+    margin-top: 7px;
+}
+.addToRemove{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    padding-left: 5px;
+}
+.checkout{
+    background-color: rgb(219, 184, 132);
+    border-radius: 3px;
+    box-sizing: border-box;
+}
